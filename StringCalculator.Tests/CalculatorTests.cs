@@ -45,12 +45,12 @@ namespace StringCalculator.Tests
 		}
 
 		[Test]
-		public void StringWithNumber3comma4comma5_Returns_7()
+		public void StringWithNumber3comma4comma5_Returns_12()
 		{
 			var calculator = new Calculator();
 			var actualResult = calculator.Add("3,4,5");
 
-			Assert.That(actualResult, Is.EqualTo(7));
+			Assert.That(actualResult, Is.EqualTo(12));
 		}
 	}
 }
